@@ -1,5 +1,5 @@
 # taken CIMBL70 (NanoPore) or CIMBL55 (PacBio) as an example
-# sample 30× fastq data, -p represents the proportion which determined by the original total size of sequencing data; 0.3 represents 30%
+# -p represents the proportion of samples extracted from the total sequencing data; 0.3 represents extracting 30% from 100× fastq data of CIMBL70
 seqkit sample -s100 CIMBL70.filt.fa.gz -p 0.3 -2|/software/gzip-1.10/gzip -c - >30x_CIMBL70.fastq.gz
 # long reads mapping, for NanoPore data, such as CIMBL70
 minimap2 -ax map-ont --MD -t 32 /data/genome/B73v5/genome.fa CIMBL70.fq.gz >CIMBL70.sam

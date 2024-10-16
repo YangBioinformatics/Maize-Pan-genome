@@ -1,0 +1,9 @@
+{
+        "install" :"/data/spyang/wgs/smartie-sv",
+        "targets" : {
+                  "B73v45" : "B73v5.genome.fa"
+                  },
+        "queries" : {
+                 "CIMBL70"   : "CIMBL70.contigs.fasta"
+           }
+}

@@ -1,0 +1,3 @@
+id	path	depth	read length
+CIMBL70	rmdup_bam/CIMBL70.sorted.markdup.bam	20	150
+CIMBL55	rmdup_bam/CIMBL55.sorted.markdup.bam	20	150
