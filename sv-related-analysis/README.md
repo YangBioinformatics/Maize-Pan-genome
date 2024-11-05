@@ -16,4 +16,5 @@ Based on all BAM files and SVs identified by the above four methods, SVs at the 
 ## 3. SV genotyping based on the graph genome
 The clean fastq reads of each accession were aligned to the graph genome by giraffe (https://github.com/vgteam/vg) 
 to generate a gam (Graph Alignment / Map, vg's BAM, https://github.com/vgteam/vg/wiki/File-Formats) file.
-SVs at the population level were genotyped by vg (https://github.com/vgteam/vg). Related scripts were in the graph-genome folder.
+SVs at the population level were genotyped by vg (https://github.com/vgteam/vg). Related scripts are in
+the graph-genome folder (https://github.com/YangBioinformatics/Maize-Pan-genome/tree/main/graph-genome/src).
