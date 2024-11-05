@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="119.3.227.67" id="06668be7-ef33-4c62-a370-641e282a42e5" port="3018" customName="pan_genome_github" nameFormat="CUSTOM" username="spyang" useOpenSSHConfig="true">
+        <option name="customName" value="pan_genome_github" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="localhost" id="cae8cef1-058d-400c-825c-eaa3374ee71a" port="22" customName="maize_git" nameFormat="CUSTOM" useOpenSSHConfig="true">
+        <option name="customName" value="maize_git" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

@@ -1,9 +1,9 @@
-# fastq data quality control
-/software/fastp/fastp -w 4 -i CIMBL70_1.fq.gz -o qc_CIMBL70_1.fq.gz -I CIMBL70_2.fq.gz -O qc_CIMBL70_2.fq.gz -j CIMBL70.report.json -h CIMBL70.json.html
+# fastq data quality control, R1 is one end of paired-end sequencing, R2 is the other end.
+/software/fastp/fastp -w 4 -i CIMBL70_R1.fq.gz -o qc_CIMBL70_R1.fq.gz -I CIMBL70_R2.fq.gz -O qc_CIMBL70_R2.fq.gz -j CIMBL70.report.json -h CIMBL70.json.html
 # mapping short reads to B73
 mkdir mapping_bam
 /home/spyang/anaconda3.2019.04/bin/bwa mem -t 32 -M /data/genome/B73v5/genome.fa \
- -R "@RG\tID:CIMBL70\tLB:CIMBL70\tPL:Illumina\tSM:CIMBL70\tPU:run"  qc_CIMBL70_1.fastq.gz  qc_CIMBL70_2.fastq.gz \
+ -R "@RG\tID:CIMBL70\tLB:CIMBL70\tPL:Illumina\tSM:CIMBL70\tPU:run"  qc_CIMBL70_R1.fastq.gz  qc_CIMBL70_R2.fastq.gz \
  |samtools view -@  32 -Sb  - | samtools sort -@ 32 -o mapping_bam/CIMBL70.bam -
 # mapping quality control
 samtools view -@  32 -q 30 mapping_bam/CIMBL70.bam -o mapping_bam/CIMBL70.q30.bam

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e694fdbd-5198-41ee-b44b-cb43d7c460bb" name="pan_genome_git" url="http://119.3.227.67">
+        <fileTransfer rootFolder="/data01/spyang" accessType="SFTP" host="119.3.227.67" port="3018" sshConfigId="06668be7-ef33-4c62-a370-641e282a42e5" sshConfig="pan_genome_github">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
