@@ -14,7 +14,7 @@ threads=60
 /data/spyang/wgs/vg-1.46/vg minimizer --progress --distance-index B73v5.dist --output-name B73v5.min B73v5.gbz
 /data/spyang/wgs/vg-1.46/vg snarls -t $threads B73v5.xg > B73v5.snarls
 # ------------ genotype SV based on the graph genome --------------------------
-# taken CIMBL70 as an example
+# taken CIMBL70 as an example, qc_CIMBL70_1.fastq.gz and qc_CIMBL70_2.fastq.gz are the pair-end short reads DNA-seq data.
 vg giraffe -t 40 -f qc_CIMBL70_1.fastq.gz -f qc_CIMBL70_2.fastq.gz -x B73v5.xg -g B73v5.gg -m B73v5.min -d B73v5.dist -H B73v5.gbwt > CIMBL70.gam
 vg pack -t 40 -Q 5 -x  B73v5.xg -g CIMBL70.gam -o CIMBL70.pack
 vg call -t 40 -r B73v5.snarls -k CIMBL70.pack  -s CIMBL70 B73v5.xg > CIMBL70.vcf

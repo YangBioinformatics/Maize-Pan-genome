@@ -1,4 +1,4 @@
-# taken CIMBL70 (NanoPore) or CIMBL55 (PacBio) as an example, reference genome (B73v5)
+# taken CIMBL70 (NanoPore genome sequencing) or CIMBL55 (PacBio genome sequencing) as an example, reference genome (B73v5)
 # ----------------- Sniffles -----------------
 sniffles -t 4 -m CIMBL70.bam -v B73v5_CIMBL70.vcf
 # ----------------- Cutesv -------------------
@@ -6,7 +6,7 @@ sniffles -t 4 -m CIMBL70.bam -v B73v5_CIMBL70.vcf
 cuteSV -S CIMBL70 --genotype --max_size -1  --max_cluster_bias_INS 100 --diff_ratio_merging_INS 0.3  \
 --max_cluster_bias_DEL 100 --diff_ratio_merging_DEL 0.3 CIMBL70.bam /data/genome/B73v5/genome.fa B73v5_CIMBL70.vcf CIMBL70
 rm -rf CIMBL70
-# for NanoPore data, such as CIMBL55
+# for PacBio data, such as CIMBL55
 cuteSV -S CIMBL55 --genotype  --max_size -1  --max_cluster_bias_INS 100 --diff_ratio_merging_INS 0.3 \
 --max_cluster_bias_DEL 200 --diff_ratio_merging_DEL 0.5 CIMBL55.bam /data/genome/B73v5/genome.fa B73v5_CIMBL55.vcf CIMBL55
 rm -r CIMBL55
