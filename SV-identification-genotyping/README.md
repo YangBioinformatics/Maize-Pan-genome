@@ -10,7 +10,7 @@ NUCMER (https://github.com/mummer4/mummer) was first used to conduct whole-genom
 Contigs of a query genome was aligned to B73 to identify SVs by smartie-sv.
 ### 2. SV genotyping based on linear reference genome (B73)
 Quality control of Illumina short reads sequencing data for each sample was conducted by fastp (v0.23.2)(https://github.com/OpenGene/fastp). 
-Then, the clean fastq reads of each accession were further aligned to B73 by BWA ((v0.7.17) (https://github.com/lh3/bwa) to generate a BAM 
+Then, the clean fastq reads of each accession were further aligned to B73 by BWA (v0.7.17) (https://github.com/lh3/bwa) to generate a BAM 
 (Binary Alignment Map, https://en.wikipedia.org/wiki/Binary_Alignment_Map) file for each sample.
 Based on all BAM files and SVs identified by the above four methods, SVs at the population level were genotyped by paragraph (v2.4) (https://github.com/Illumina/paragraph). 
 ### 3. SV genotyping based on the graph genome
