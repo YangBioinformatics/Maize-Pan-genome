@@ -1,5 +1,5 @@
 ### Heritability estimation
-LDAK  (https://dougspeed.com/) was used to estimate the heritability for multiple traits using different types 
+LDAK (v5.2) (https://dougspeed.com/) was used to estimate the heritability for multiple traits using different types 
 of genetic variants. These traits included genome-wide gene expressions from eQTL analysis 
  [(Liu et al., 2020)](https://doi.org/10.1186/s13059-020-02069-1), ASI 
 [(Liu et al., 2021)](https://academic.oup.com/plcell/article/33/6/2058/6175065)
