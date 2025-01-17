@@ -3,8 +3,10 @@
 # Installation
 We did not develop new tools; instead, we provide scripts and workflows for data analysis. The required software and their versions are listed in the software dependencies.
 The pipeline was written with bash/python and was only tested on Linux platform.
-Runtime environment: OS Requirements (Centos 8),  Python 3.7.11
+Runtime environment: OS Requirements (Centos 8), Python 3.7.11
+```
 Usage: git clone https://github.com/YangBioinformatics/Maize-Pan-genome.git
+```
 # Demo data
 The reference genome for maize pan genome analysis is [B73 (version 5)] (https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
 Raw sequencing data is available at [NCBI](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8). 
