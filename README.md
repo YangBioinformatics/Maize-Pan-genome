@@ -1,16 +1,22 @@
-# Maize Pan-genome 
-
+# Maize Pan-genome related scripts and pipelines
+# Contents
+1. [Genome assembly and quality evaluation](genome-assembly/README.md)
+2. [Gene annotation](gene-prediction/README.md)
+3. [Repeat sequence annotation](TE-annotation/README.md)
+4. [SV identification](SV-identification-genotyping/README.md)
+5. [Heritability estimation](heritability-estimation/README.md)
+6. [eQTL analysis](eQTL-analysis/README.md)
+7. [ZmSIL2-related-analysis](ZmSIL2-related-analysis/README.md)
 # Installation
-We did not develop new tools; instead, we provide scripts and workflows for data analysis. The required software and their versions are listed in the software dependencies.
-The pipeline was written with bash/python and was only tested on Linux platform.
+We did not develop any software that requires compilation or complex installation. Scripts and pipelines provided rely on existing software, with dependencies and versions outlined in the software dependencies section.
+The scripts and workflows were written with bash/python and were only tested on Linux platform.
 Runtime environment: OS Requirements (Centos 8), Python 3.7.11
 ```
 Usage: git clone https://github.com/YangBioinformatics/Maize-Pan-genome.git
 ```
-# Demo data
+# External data
 The reference genome for maize pan genome analysis is [B73 (version 5)] (https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
-Raw sequencing data is available at [NCBI](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8). 
-
+Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at [NCBI](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8). Other dependent data has been placed in a separate directory or documented in the README file within the directory.
 
 ## Software dependencies
 ```
