@@ -15,7 +15,7 @@ Runtime environment: OS Requirements (Centos 8), Python 3.7.11
 Usage: git clone https://github.com/YangBioinformatics/Maize-Pan-genome.git
 ```
 # External data
-The reference genome for maize pan genome analysis is [B73 (version 5)] (https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
+The reference genome for maize pan genome analysis is [B73 (version 5)](https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
 Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at [NCBI](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8). Other dependent data has been placed in a separate directory or documented in the README file within the directory.
 
 ## Software dependencies
