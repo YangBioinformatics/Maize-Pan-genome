@@ -6,7 +6,8 @@
 4. [SV identification](SV-identification-genotyping/README.md)
 5. [Heritability estimation](heritability-estimation/README.md)
 6. [eQTL analysis](eQTL-analysis/README.md)
-7. [ZmSIL2-related-analysis](ZmSIL2-related-analysis/README.md)
+7. [Graph genome construction](graph-genome-construction/README.md)
+8. [ZmSIL2-related-analysis](ZmSIL2-related-analysis/README.md)
 # Installation
 We did not develop any software that requires compilation or complex installation. Scripts and pipelines provided rely on existing software, with dependencies and versions outlined in the software dependencies section.
 The scripts and workflows were written with bash/python and were only tested on Linux platform.
@@ -15,8 +16,10 @@ Runtime environment: OS Requirements (Centos 8), Python 3.7.11
 Usage: git clone https://github.com/YangBioinformatics/Maize-Pan-genome.git
 ```
 # External data
-The reference genome for maize pan genome analysis is [B73 (version 5)](https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
-Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at NCBI BioProject: [PRJNA1103102](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8) (Currently, this data can only be viewed but cannot be downloaded). In addition, the genome sequence and annotation data have also been uploaded to the [MaizeGDB](https://www.maizegdb.org/) website. For above data, we will make them publicly available immediately after the paper is accepted or during the review process if requested by the reviewers/editors. Other dependent data has been placed in a separate directory or documented in the README file within the directory.
+1. The reference genome for maize pan genome analysis is [B73 (version 5)](https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
+2. Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at NCBI BioProject: [PRJNA1103102](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8) (Currently, this data can only be viewed but cannot be downloaded). 
+3. In addition, the genome sequence and annotation data have also been uploaded to the [MaizeGDB](https://www.maizegdb.org/) website. For above data, we will make them publicly available immediately after the paper is accepted or during the review process if requested by the reviewers/editors. 
+4. Other dependent data has been placed in a separate directory or documented in the README file within the directory.
 
 # Software dependencies
 ```
