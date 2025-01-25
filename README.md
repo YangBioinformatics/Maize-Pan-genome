@@ -16,9 +16,9 @@ Usage: git clone https://github.com/YangBioinformatics/Maize-Pan-genome.git
 ```
 # External data
 The reference genome for maize pan genome analysis is [B73 (version 5)](https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
-Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at NCBI BioProject: [PRJNA1103102](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8)(Currently, this data can only be viewed but cannot be downloaded). In addition, the genome sequence and annotation data have also been uploaded to the [MaizeGDB](https://www.maizegdb.org/) website. For above data, we will make them publicly available immediately after the paper is accepted or during the review process if requested by the reviewers/editors. Other dependent data has been placed in a separate directory or documented in the README file within the directory.
+Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at NCBI BioProject: [PRJNA1103102](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8) (Currently, this data can only be viewed but cannot be downloaded). In addition, the genome sequence and annotation data have also been uploaded to the [MaizeGDB](https://www.maizegdb.org/) website. For above data, we will make them publicly available immediately after the paper is accepted or during the review process if requested by the reviewers/editors. Other dependent data has been placed in a separate directory or documented in the README file within the directory.
 
-## Software dependencies
+# Software dependencies
 ```
 1. Genome assembly and quality evaluation: NextDenovo (v2.3.1), NextPolish (v1.3.1), LTR_retriever (v2.9.0), BUSCO (v4.1.4) and RagTag (v2.1.0)
 
