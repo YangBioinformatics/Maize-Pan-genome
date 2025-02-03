@@ -3,7 +3,7 @@ plink --allow-extra-chr --vcf variants.vcf --indep-pairwise 50 10 0.2 --out vari
 plink --allow-extra-chr --vcf variants.vcf --extract variants.prune.in  --make-bed --out variants.pruned
 # calculate population structure
 admixture --cv %s.prune.in.ped 4 -j16 >variants.prune.in.log.txt
-# prepare file (varriants ) for GWAS analysis
+# prepare file (variants.tped and variants.tped) for GWAS analysis
 plink --allow-extra-chr --vcf variants.vcf --recode 12 transpose --output-missing-genotype 0 --out variants  --autosome-num 90
 # calculate kinship
 emmax-kin-intel64 -d 10 -v variants -o variants.kinf

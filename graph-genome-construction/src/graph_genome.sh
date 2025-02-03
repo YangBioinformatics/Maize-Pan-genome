@@ -6,7 +6,7 @@ ref=B73v5.fa
 threads=60
 # ------------ construct graph genome --------------------------
 /data/spyang/wgs/vg-1.46/vg construct -t $threads -a -f -S -v $vcf -r $ref  > B73v5.vg
-# rm -rf tmp; mkdir tmp
+rm -rf tmp; mkdir tmp
 /data/spyang/wgs/vg-1.46/vg index -t $threads --temp-dir tmp -L -x B73v5.xg B73v5.vg
 /data/spyang/wgs/vg-1.46/vg index -t $threads --temp-dir tmp -j B73v5.dist B73v5.vg
 /data/spyang/wgs/vg-1.46/vg gbwt --num-jobs $threads --temp-dir tmp -g B73v5.gg -x B73v5.xg -o B73v5.gbwt -P
