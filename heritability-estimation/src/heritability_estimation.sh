@@ -4,7 +4,7 @@
 for i in {1..10}
 do
     ldak --bfile WW-snp --cut-weights chr1_WW-snp --window-prune .98 --window-kb 100 --chr $i --max-threads 8  --allow-multi YES
-    ldak --bfile WW-snp --calc-weights-all chr1_WW-snp --window-prune .98 --window-kb 100 --chr $i --max-threads 8  --allow-multi YES
+    ldak --bfile WW-snp --calc-weights-all chr1_WW-snp --chr $i --max-threads 8  --allow-multi YES
 done
 mkdir WW-snp
 # merge all weights into the final weight file (WW-snp/weights.short)
