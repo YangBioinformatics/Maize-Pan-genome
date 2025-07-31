@@ -17,8 +17,8 @@ Usage: git clone https://github.com/YangBioinformatics/Maize-Pan-genome.git
 ```
 # External data
 1. The reference genome for maize pan genome analysis is [B73 (version 5)](https://download.maizegdb.org/Zm-B73-REFERENCE-NAM-5.0/).
-2. Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at NCBI BioProject: [PRJNA1103102](https://dataview.ncbi.nlm.nih.gov/object/PRJNA1103102?reviewer=lh8b609gr4nu5763dvvqduask8) (Currently, this data can only be viewed but cannot be downloaded). 
-3. In addition, the genome sequence and annotation data have also been uploaded to the [MaizeGDB](https://www.maizegdb.org/) website. For above data, we will make them publicly available immediately after the paper is accepted or during the review process if requested by the reviewers/editors. 
+2. Raw sequencing data (Nanopore, DNA/RNA Illumina sequencing and genome sequences of 25 newly assembled maize germplasms, as well as RNA-seq and ChIP-seq data for transgenic plants) is available at NCBI BioProject: [PRJNA1103102](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1103102). 
+3. In addition, the genome sequence and annotation data have also been uploaded to the [MaizeGDB](https://www.maizegdb.org/) website. 
 4. SV information at the pan-genome and population level is avaiable at [zenodo](https://zenodo.org/records/14736924).
 5. Other dependent data has been placed in a separate directory or documented in the README file within the directory.
 
